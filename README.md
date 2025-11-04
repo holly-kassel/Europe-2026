@@ -3,6 +3,14 @@
 Trip planner for Holly and Phil's Europe trip for Aubrey's wedding  
 **Dates:** April 22 – May 4, 2026
 
+## 🚀 Build a Travel Planning App
+
+Want to create an interactive travel planning app with this itinerary? Check out:
+- **[SPARK_PROMPT.md](SPARK_PROMPT.md)** - Quick prompt for GitHub Spark (recommended)
+- **[GITHUB_SPARK_PROMPT.md](GITHUB_SPARK_PROMPT.md)** - Detailed specifications and features
+
+Copy either prompt and paste it into GitHub Spark to generate a full-featured travel planning web application!
+
 ---
 
 ## Core Itinerary
