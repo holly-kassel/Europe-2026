@@ -1,0 +1,407 @@
+{
+  "trip": {
+    "name": "Europe 2026 - Holly and Phil's Trip",
+    "purpose": "Aubrey's Wedding in Europe",
+    "startDate": "2026-04-22",
+    "endDate": "2026-05-04",
+    "duration": 13,
+    "travelers": ["Holly", "Phil"],
+    "lastUpdated": "2024-11-04T03:26:13.542Z"
+  },
+  "flights": [
+    {
+      "id": "outbound",
+      "type": "outbound",
+      "airline": "Delta",
+      "confirmationNumber": "HPQVMQ",
+      "departure": {
+        "airport": "ORD",
+        "city": "Chicago",
+        "date": "2026-04-22",
+        "time": "17:10",
+        "timezone": "America/Chicago"
+      },
+      "arrival": {
+        "airport": "CDG",
+        "city": "Paris",
+        "date": "2026-04-23",
+        "time": "08:15",
+        "timezone": "Europe/Paris"
+      },
+      "image": "https://github.com/user-attachments/assets/d272fdab-b374-4a4f-b629-42c2f77d88b8"
+    },
+    {
+      "id": "return",
+      "type": "return",
+      "airline": "American",
+      "confirmationNumber": "ADHASP",
+      "departure": {
+        "airport": "FCO",
+        "city": "Rome",
+        "date": "2026-05-04",
+        "time": "11:05",
+        "timezone": "Europe/Rome"
+      },
+      "arrival": {
+        "airport": "ORD",
+        "city": "Chicago",
+        "date": "2026-05-04",
+        "time": "14:30",
+        "timezone": "America/Chicago"
+      },
+      "image": "https://github.com/user-attachments/assets/4342ec3d-175e-4dc6-ada5-443bfe6cdc33"
+    }
+  ],
+  "trains": [
+    {
+      "id": "paris-rome",
+      "route": "Paris to Rome",
+      "departure": {
+        "station": "Paris Gare de Lyon",
+        "city": "Paris",
+        "date": "2026-04-27",
+        "time": "TBD"
+      },
+      "arrival": {
+        "station": "Roma Termini",
+        "city": "Rome",
+        "date": "2026-04-27",
+        "time": "TBD"
+      },
+      "status": "TBD"
+    },
+    {
+      "id": "rome-sorrento",
+      "route": "Rome to Sorrento via Naples",
+      "departure": {
+        "station": "Roma Termini",
+        "city": "Rome",
+        "date": "2026-04-29",
+        "time": "TBD"
+      },
+      "intermediate": {
+        "station": "Napoli Centrale",
+        "city": "Naples",
+        "time": "TBD"
+      },
+      "arrival": {
+        "station": "Sorrento",
+        "city": "Sorrento",
+        "date": "2026-04-29",
+        "time": "TBD"
+      },
+      "status": "TBD"
+    },
+    {
+      "id": "sorrento-rome",
+      "route": "Sorrento to Rome via Naples",
+      "departure": {
+        "station": "Sorrento",
+        "city": "Sorrento",
+        "date": "2026-05-03",
+        "time": "TBD"
+      },
+      "intermediate": {
+        "station": "Napoli Centrale",
+        "city": "Naples",
+        "time": "TBD"
+      },
+      "arrival": {
+        "station": "Roma Termini",
+        "city": "Rome",
+        "date": "2026-05-03",
+        "time": "TBD"
+      },
+      "status": "TBD"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "paris",
+      "city": "Paris",
+      "country": "France",
+      "neighborhood": "Latin Quarter",
+      "checkIn": "2026-04-23",
+      "checkOut": "2026-04-27",
+      "nights": 4,
+      "accommodation": {
+        "status": "TBD",
+        "name": null,
+        "address": null,
+        "confirmationNumber": null
+      },
+      "highlights": [
+        "Staying in Latin Quarter",
+        "Major attractions and museums",
+        "Food scene and markets",
+        "Spring festivals and concerts"
+      ],
+      "thingsToDo": [
+        {
+          "name": "The Panthéon",
+          "category": "attraction",
+          "location": "Place du Panthéon",
+          "description": "Neoclassical mausoleum where France's most celebrated figures are buried. Climb the dome for stunning panoramic views of Paris.",
+          "access": "Metro Line 10 (Cardinal Lemoine) or RER B (Luxembourg)",
+          "notes": "Walking distance from Latin Quarter accommodations"
+        },
+        {
+          "name": "Shakespeare and Company Bookstore",
+          "category": "attraction",
+          "location": "37 Rue de la Bûcherie",
+          "description": "Legendary English-language bookshop frequented by writers and artists since the 1950s.",
+          "access": "Walking distance from Latin Quarter, near Seine",
+          "notes": "Free to browse, great for photos"
+        },
+        {
+          "name": "Musée de Cluny (National Museum of the Middle Ages)",
+          "category": "museum",
+          "location": "28 Rue du Sommerard",
+          "description": "Medieval art and Roman ruins housed in a former abbey. Don't miss the famous 'Lady and the Unicorn' tapestries.",
+          "access": "Metro Line 10 (Cluny-La Sorbonne)",
+          "notes": "Smaller museum, plan 1-2 hours"
+        },
+        {
+          "name": "Arènes de Lutèce",
+          "category": "attraction",
+          "location": "49 Rue Monge",
+          "description": "Ancient Roman amphitheater tucked in a quiet corner - a true hidden gem.",
+          "access": "Metro Line 7 (Place Monge)",
+          "notes": "Free to visit, often overlooked by tourists"
+        },
+        {
+          "name": "Rue Mouffetard & Place de la Contrescarpe",
+          "category": "market",
+          "location": "Rue Mouffetard",
+          "description": "Famous for its vibrant daily market and authentic Parisian atmosphere. Perfect for street food, crêpes, and falafel.",
+          "bestTime": "Morning for the market (Tuesday-Sunday)",
+          "notes": "Popular with locals and students"
+        },
+        {
+          "name": "Medieval Street Wandering",
+          "category": "walking",
+          "location": "Rue de la Huchette and Rue Saint-André-des-Arts",
+          "description": "Charming, narrow lanes filled with cafés, bakeries, and shops reminiscent of medieval Paris.",
+          "startingPoint": "Place Saint-Michel",
+          "notes": "Great for evening strolls and people-watching"
+        },
+        {
+          "name": "Jardin du Luxembourg",
+          "category": "park",
+          "location": "Luxembourg Gardens",
+          "description": "Beautiful garden ideal for a rest, people-watching, or a picnic.",
+          "access": "Multiple Metro lines to Luxembourg station",
+          "notes": "Free admission to gardens"
+        }
+      ],
+      "events": [
+        {
+          "name": "Major Concerts",
+          "dates": "April 23-27, 2026",
+          "venues": ["Accor Arena", "La Défense Arena", "Zénith", "Olympia", "Salle Pleyel"],
+          "artists": ["Andrea Bocelli", "Doja Cat", "Tame Impala", "Olivia Dean", "Vanessa Paradis"],
+          "notes": "Book tickets early as April concerts often sell out in advance"
+        },
+        {
+          "name": "Smaller Venue Concerts",
+          "venues": ["La Cigale", "Le Trianon", "La Maroquinerie"],
+          "description": "Perfect for discovering rising artists or intimate shows across genres (pop, rock, rap, jazz, world music)"
+        },
+        {
+          "name": "Classical Music & Opera",
+          "venues": ["Opéra Bastille", "Palais Garnier", "Théâtre des Champs-Élysées"],
+          "performances": ["Romeo et Juliette", "Tosca"],
+          "notes": "Book opera tickets well in advance"
+        },
+        {
+          "name": "Art Exhibitions",
+          "venues": ["Louvre", "Musée d'Orsay", "Centre Pompidou", "Fondation Louis Vuitton"],
+          "notes": "Purchase tickets online in advance to avoid long lines"
+        },
+        {
+          "name": "Tuileries Carnival",
+          "type": "festival",
+          "description": "Annual spring celebration with open-air events"
+        },
+        {
+          "name": "100% Festival at Parc de La Villette",
+          "type": "festival",
+          "description": "Multidisciplinary festival featuring music, art, and live performances. Family-friendly with street food and outdoor markets"
+        },
+        {
+          "name": "Paris Jazz Festival",
+          "type": "festival",
+          "description": "Multiple events throughout April across various neighborhoods",
+          "notes": "Over 39 music festival events listed for April 2026"
+        },
+        {
+          "name": "Versailles Musical Fountain Shows",
+          "location": "Palace of Versailles",
+          "dates": "Running throughout April",
+          "description": "Dazzling combination of fountains, music, and gardens",
+          "access": "RER C to Versailles-Château-Rive-Gauche",
+          "travelTime": "90 minutes from Paris"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "La Petite Périgourdine",
+          "category": "Classic French",
+          "location": "39 Rue des Écoles",
+          "specialties": ["Confit duck leg", "Steak tartare", "Homemade terrine"],
+          "atmosphere": "Quintessential French bistro near the Panthéon with charming historic interiors",
+          "priceRange": "€€",
+          "notes": "Popular with locals, reservations recommended"
+        },
+        {
+          "name": "Le Petit Prince de Paris",
+          "category": "Classic French",
+          "location": "12 Rue de Lanneau",
+          "specialties": ["Beautifully presented French fare using fresh ingredients"],
+          "atmosphere": "Building dating back to 1450, very atmospheric",
+          "priceRange": "€€-€€€",
+          "notes": "Perfect for a romantic dinner"
+        },
+        {
+          "name": "Bistro des Augustins",
+          "category": "Classic French",
+          "location": "39 Quai des Grands Augustins",
+          "specialties": ["Gratin", "Classic French comfort food"],
+          "atmosphere": "Tiny bistro with chalkboard menu and authentic worn decor",
+          "priceRange": "€€",
+          "notes": "Hallmark of authentic Parisian eateries"
+        },
+        {
+          "name": "Tour d'Argent",
+          "category": "Michelin Dining",
+          "location": "15 Quai de la Tournelle",
+          "specialties": ["Pressed duck (world-renowned)"],
+          "atmosphere": "Legendary Michelin-starred restaurant with spectacular views of Notre-Dame",
+          "priceRange": "€€€€",
+          "notes": "Special occasion dining, reservations essential, dress code applies"
+        },
+        {
+          "name": "Alliance",
+          "category": "Michelin Dining",
+          "location": "5 Rue de Poissy",
+          "specialties": ["Healthy, creative tasting menus"],
+          "atmosphere": "Michelin-featured contemporary French restaurant",
+          "priceRange": "€€€",
+          "notes": "Chef's menu with inventive dishes, reserve well in advance"
+        },
+        {
+          "name": "L'Atelier Artisan Crêpier Mouffetard",
+          "category": "Market-Fresh & Casual",
+          "location": "Rue Mouffetard market area",
+          "specialties": ["Savory galettes", "Sweet crêpes using local, market-sourced ingredients"],
+          "atmosphere": "Modern crêperie, informal and family-friendly",
+          "priceRange": "€",
+          "notes": "Great for lunch after visiting the market"
+        },
+        {
+          "name": "Les Papilles",
+          "category": "Market-Fresh & Casual",
+          "location": "30 Rue Gay-Lussac",
+          "specialties": ["Daily-changing market-to-table menu"],
+          "atmosphere": "Intimate bistro with excellent wine selection",
+          "priceRange": "€€",
+          "notes": "Focuses on seasonal produce, very popular with locals"
+        },
+        {
+          "name": "Le Méchoui du Prince",
+          "category": "International",
+          "cuisine": "Moroccan",
+          "location": "36 Rue Monsieur le Prince",
+          "specialties": ["Lamb tagines", "Couscous", "Famous pastilla"],
+          "atmosphere": "Traditional Moroccan cuisine for over 50 years",
+          "priceRange": "€€",
+          "notes": "Rich North African ambiance"
+        },
+        {
+          "name": "Blueberry Maki Bar",
+          "category": "International",
+          "cuisine": "Fusion Sushi",
+          "location": "6 Rue du Sabot (6th district, near Latin Quarter)",
+          "specialties": ["Innovative fusion sushi rolls", "Cocktails"],
+          "atmosphere": "Stylish modern spot with exotic flavors",
+          "priceRange": "€€",
+          "notes": "Great for a modern social dining experience"
+        },
+        {
+          "name": "Figue et Olive",
+          "category": "International",
+          "cuisine": "Tunisian-Italian Fusion",
+          "location": "44 Rue Pierre Nicole",
+          "specialties": ["Tunisian-Italian fusion using organic ingredients"],
+          "atmosphere": "Intimate Mediterranean spot",
+          "priceRange": "€€",
+          "notes": "Perfect for lighter Mediterranean fare"
+        }
+      ],
+      "transportation": {
+        "mainMetroLines": ["Line 4 (Odéon, Saint-Michel)", "Line 10 (Cluny-La Sorbonne, Maubert-Mutualité, Cardinal Lemoine)", "RER B (Saint-Michel Notre-Dame, Luxembourg)"],
+        "notes": "The Latin Quarter is very walkable - most attractions and restaurants are within 15-20 minutes on foot from each other."
+      }
+    },
+    {
+      "id": "rome-first",
+      "city": "Rome",
+      "country": "Italy",
+      "stay": "First Stay",
+      "checkIn": "2026-04-27",
+      "checkOut": "2026-04-29",
+      "nights": 2,
+      "accommodation": {
+        "status": "TBD",
+        "name": null,
+        "address": null,
+        "confirmationNumber": null
+      },
+      "highlights": [],
+      "thingsToDo": [],
+      "restaurants": []
+    },
+    {
+      "id": "sorrento",
+      "city": "Sorrento",
+      "country": "Italy",
+      "checkIn": "2026-04-29",
+      "checkOut": "2026-05-03",
+      "nights": 4,
+      "accommodation": {
+        "status": "TBD",
+        "name": null,
+        "address": null,
+        "confirmationNumber": null
+      },
+      "highlights": ["Wedding event location"],
+      "thingsToDo": [],
+      "restaurants": []
+    },
+    {
+      "id": "rome-second",
+      "city": "Rome",
+      "country": "Italy",
+      "stay": "Second Stay",
+      "checkIn": "2026-05-03",
+      "checkOut": "2026-05-04",
+      "nights": 1,
+      "accommodation": {
+        "status": "TBD",
+        "name": null,
+        "address": null,
+        "confirmationNumber": null
+      },
+      "highlights": [],
+      "thingsToDo": [],
+      "restaurants": []
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "apiEndpoint": "https://raw.githubusercontent.com/holly-kassel/Europe-2026/main/trip-data.json",
+    "sourceRepository": "https://github.com/holly-kassel/Europe-2026",
+    "sparkRepository": "https://github.com/holly-kassel/europe-2026-trip-pla",
+    "documentation": "https://github.com/holly-kassel/Europe-2026/blob/main/API-INTEGRATION.md"
+  }
+}
