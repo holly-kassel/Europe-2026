@@ -50,8 +50,10 @@ Beautiful garden ideal for a rest, people-watching, or a picnic. Short walk from
 ### Events During Your Visit (April 23-27, 2026)
 
 #### Major Concerts
-**Various Artists at Major Venues**: Accor Arena, La Défense Arena, Zénith, Olympia, and Salle Pleyel will host major international acts including Andrea Bocelli, Doja Cat, Tame Impala, Olivia Dean, and Vanessa Paradis
-**Note**: Book tickets early as April concerts often sell out in advance
+**Various Artists at Major Venues**: Major international acts during April 2026
+- **Venues**: Accor Arena, La Défense Arena, Zénith, Olympia, and Salle Pleyel
+- **Artists**: Andrea Bocelli, Doja Cat, Tame Impala, Olivia Dean, Vanessa Paradis, and more
+- **Note**: Book tickets early as April concerts often sell out in advance
 
 #### Smaller Venue Concerts
 **Venues**: La Cigale, Le Trianon, La Maroquinerie  
