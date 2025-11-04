@@ -28,7 +28,12 @@ Copy either prompt and paste it into GitHub Spark to generate a full-featured tr
 
 ### **Paris**  
 **Wednesday, April 23 – Monday, April 27, 2026**  
-🏨 Accommodation: **TBD**
+🏨 Accommodation: **TBD**  
+📍 Staying in: **Latin Quarter**
+
+**Planning Resources:**
+- [Paris Recommendations](paris-recommendations.md) - Things to do, restaurants, and events
+- [Sub-Issues to Create](sub-issues-to-create.md) - Guide for creating GitHub sub-issues
 
 ---
 
