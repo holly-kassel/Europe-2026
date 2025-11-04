@@ -5,9 +5,13 @@ Trip planner for Holly and Phil's Europe trip for Aubrey's wedding
 
 ## 🚀 Build a Travel Planning App
 
-Want to create an interactive travel planning app with this itinerary? Check out:
-- **[SPARK_PROMPT.md](SPARK_PROMPT.md)** - Quick prompt for GitHub Spark (recommended)
-- **[GITHUB_SPARK_PROMPT.md](GITHUB_SPARK_PROMPT.md)** - Detailed specifications and features
+Want to create an interactive travel planning app with this itinerary? 
+
+📖 **[HOW_TO_USE.md](HOW_TO_USE.md)** - Step-by-step instructions for GitHub Spark
+
+**Choose a prompt:**
+- **[SPARK_PROMPT.md](SPARK_PROMPT.md)** - Quick prompt (recommended)
+- **[GITHUB_SPARK_PROMPT.md](GITHUB_SPARK_PROMPT.md)** - Detailed specifications
 
 Copy either prompt and paste it into GitHub Spark to generate a full-featured travel planning web application!
 
