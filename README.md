@@ -15,6 +15,17 @@ Want to create an interactive travel planning app with this itinerary?
 
 Copy either prompt and paste it into GitHub Spark to generate a full-featured travel planning web application!
 
+## 🔗 API Integration for Spark App
+
+Your Spark app can stay synchronized with this repository! All trip data is available in a structured JSON format:
+
+**📊 JSON Data Endpoint:**  
+`https://raw.githubusercontent.com/holly-kassel/Europe-2026/main/trip-data.json`
+
+**📖 Integration Guide:** [API-INTEGRATION.md](API-INTEGRATION.md)
+
+The data file automatically updates when you modify trip information in this repository. Your Spark app can fetch the latest data to display flights, destinations, activities, restaurants, and more!
+
 ---
 
 ## Core Itinerary

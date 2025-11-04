@@ -57,4 +57,36 @@ Simply tell GitHub Spark:
 
 ---
 
+## Connecting Your Spark App to Live Data
+
+After creating your Spark app, you can connect it to this repository for automatic data updates!
+
+### 🔗 API Integration
+
+Your Spark app can fetch real-time trip data from this repository:
+
+**Data Endpoint:** `https://raw.githubusercontent.com/holly-kassel/Europe-2026/main/trip-data.json`
+
+**Quick Start Guide:** [SPARK-INTEGRATION-QUICKSTART.md](SPARK-INTEGRATION-QUICKSTART.md)  
+**Full Documentation:** [API-INTEGRATION.md](API-INTEGRATION.md)
+
+### How It Works
+
+1. **You update trip info** in this repository (flights, hotels, activities, etc.)
+2. **GitHub Actions automatically updates** the JSON data file
+3. **Your Spark app fetches** the latest data on page load or refresh
+4. **Everything stays in sync** automatically!
+
+### Benefits
+
+✅ Update once in this repo, see changes everywhere  
+✅ No need to manually update your Spark app  
+✅ All travelers see the same information  
+✅ Easy to keep track of bookings and confirmations  
+✅ Structured data ready for your app to use  
+
+**Integration takes just 5 minutes!** Check out [SPARK-INTEGRATION-QUICKSTART.md](SPARK-INTEGRATION-QUICKSTART.md) to get started.
+
+---
+
 **Ready to start?** Open `SPARK_PROMPT.md`, copy the content, and paste it into GitHub Spark!
