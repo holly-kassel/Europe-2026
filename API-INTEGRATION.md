@@ -346,7 +346,7 @@ function displayParisRecommendations(paris) {
 
 ## Automatic Updates
 
-When you make changes to the markdown files in this repository (like `README.md` or `paris-recommendations.md`), a GitHub Actions workflow automatically:
+When you make changes to the markdown files in this repository (like `README.md` or `paris-recommendations.md`) or when you create, edit, or update GitHub issues, a GitHub Actions workflow automatically:
 
 1. Extracts the updated information
 2. Regenerates the `trip-data.json` file

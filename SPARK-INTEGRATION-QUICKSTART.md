@@ -151,7 +151,7 @@ Each destination includes:
 
 The best part: **You don't need to update your Spark app manually!**
 
-1. Edit trip info in this repository (markdown files)
+1. Edit trip info in this repository (markdown files or GitHub issues)
 2. GitHub Actions automatically updates `trip-data.json`
 3. Your Spark app fetches the latest data on next load
 4. Everything stays in sync!

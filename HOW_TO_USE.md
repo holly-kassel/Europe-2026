@@ -72,7 +72,7 @@ Your Spark app can fetch real-time trip data from this repository:
 
 ### How It Works
 
-1. **You update trip info** in this repository (flights, hotels, activities, etc.)
+1. **You update trip info** in this repository (markdown files or GitHub issues)
 2. **GitHub Actions automatically updates** the JSON data file
 3. **Your Spark app fetches** the latest data on page load or refresh
 4. **Everything stays in sync** automatically!
