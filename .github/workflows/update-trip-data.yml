@@ -18,6 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: read
     
     steps:
       - name: Checkout repository
@@ -30,16 +31,11 @@ jobs:
         with:
           node-version: '20'
       
-      - name: Update timestamp in trip-data.json
+      - name: Sync issues to trip-data.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Update the lastUpdated timestamp
-          # NOTE: This requires GNU date (e.g., on Linux). The %3N specifier is not portable to macOS/BSD.
-          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%S.%3NZ")
-          
-          # Use sed to update the timestamp in the JSON file
-          sed -i "s/\"lastUpdated\": \".*\"/\"lastUpdated\": \"$TIMESTAMP\"/" trip-data.json
-          
-          echo "Updated timestamp to: $TIMESTAMP"
+          node scripts/sync-issues-to-json.js
       
       - name: Check for changes
         id: check_changes
@@ -52,5 +48,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add trip-data.json
-          git commit -m "chore: update trip data timestamp [skip ci]"
+          git commit -m "chore: sync issues to trip data [skip ci]"
           git push
