@@ -346,14 +346,39 @@ function displayParisRecommendations(paris) {
 
 ## Automatic Updates
 
-When you make changes to the markdown files in this repository (like `README.md` or `paris-recommendations.md`), a GitHub Actions workflow automatically:
+When you make changes to the markdown files in this repository (like `README.md` or `paris-recommendations.md`) or when you create, edit, or update GitHub issues, a GitHub Actions workflow automatically:
 
-1. Extracts the updated information
-2. Regenerates the `trip-data.json` file
-3. Commits and pushes the changes
-4. Makes the updated data available at the raw GitHub URL
+1. Fetches all open issues from the repository
+2. Categorizes issues by type (days, things to do, restaurants, hotels, transportation)
+3. Extracts structured data from issue titles and bodies
+4. Updates the `trip-data.json` file with the issue data and updated timestamp
+5. Commits and pushes the changes
+6. Makes the updated data available at the raw GitHub URL
 
 Your Spark app will automatically receive the latest data on its next fetch (either on page load, periodic refresh, or manual refresh).
+
+### Issue Data Structure
+
+The workflow adds an `issues` section to the JSON with categorized issue data:
+
+```javascript
+{
+  "issues": {
+    "lastSynced": "2025-11-09T15:00:00.000Z",
+    "totalIssues": 79,
+    "categories": {
+      "days": { count: 15, issues: [...] },
+      "thingsToDo": { count: 7, issues: [...] },
+      "restaurants": { count: 10, issues: [...] },
+      "hotels": { count: 4, issues: [...] },
+      "transportation": { count: 3, issues: [...] },
+      "other": { count: 40, issues: [...] }
+    }
+  }
+}
+```
+
+Each issue includes: `issueNumber`, `title`, `body`, `labels`, `url`, `createdAt`, `updatedAt`
 
 ## CORS and Security
 
