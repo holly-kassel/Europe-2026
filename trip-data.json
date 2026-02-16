@@ -2,38 +2,51 @@
   "trip": {
     "name": "Europe 2026 - Holly and Phil's Trip",
     "purpose": "Aubrey's Wedding in Europe",
-    "startDate": "2026-04-22",
+    "startDate": "2026-04-21",
     "endDate": "2026-05-04",
-    "duration": 13,
-    "travelers": ["Holly", "Phil"],
-    "lastUpdated": "2025-11-04T03:39:20.398Z"
+    "duration": 14,
+    "travelers": ["Holly Elizabeth Kassel", "Philip Robert Kassel"],
+    "lastUpdated": "2026-02-15T00:00:00.000Z"
   },
   "flights": [
     {
       "id": "outbound",
       "type": "outbound",
       "airline": "Delta",
+      "flightNumber": "DL8757",
+      "operatedBy": "Air France",
+      "aircraft": "Airbus A350-900",
+      "class": "Premium (A)",
       "confirmationNumber": "HPQVMQ",
       "departure": {
         "airport": "ORD",
         "city": "Chicago",
-        "date": "2026-04-22",
+        "terminal": "Terminal 5",
+        "date": "2026-04-21",
         "time": "17:10",
         "timezone": "America/Chicago"
       },
       "arrival": {
         "airport": "CDG",
         "city": "Paris",
-        "date": "2026-04-23",
+        "terminal": "Aerogare 2 Term E",
+        "date": "2026-04-22",
         "time": "08:15",
         "timezone": "Europe/Paris"
       },
-      "image": "https://github.com/user-attachments/assets/d272fdab-b374-4a4f-b629-42c2f77d88b8"
+      "duration": "8h 5m",
+      "seats": {
+        "Holly": "18A",
+        "Phil": "18B"
+      },
+      "status": "Booked"
     },
     {
       "id": "return",
       "type": "return",
       "airline": "American",
+      "flightNumber": "AA267",
+      "class": "Economy",
       "confirmationNumber": "ADHASP",
       "departure": {
         "airport": "FCO",
@@ -49,48 +62,79 @@
         "time": "14:30",
         "timezone": "America/Chicago"
       },
-      "image": "https://github.com/user-attachments/assets/4342ec3d-175e-4dc6-ada5-443bfe6cdc33"
+      "duration": "10h 25m",
+      "seats": {
+        "Holly": "11A",
+        "Phil": "11B"
+      },
+      "meal": "Lunch, snack",
+      "status": "Booked"
     }
   ],
   "trains": [
     {
-      "id": "paris-rome",
-      "route": "Paris to Rome",
+      "id": "paris-milan",
+      "route": "Paris to Milan",
+      "operator": "TGV INOUI",
+      "confirmationNumber": "DUUFUK",
+      "cost": "$269.48",
       "departure": {
         "station": "Paris Gare de Lyon",
         "city": "Paris",
         "date": "2026-04-27",
-        "time": "TBD"
+        "time": "06:45"
+      },
+      "arrival": {
+        "station": "Milano Porta Garibaldi",
+        "city": "Milan",
+        "date": "2026-04-27",
+        "time": "13:50"
+      },
+      "duration": "7h 5m",
+      "status": "Booked"
+    },
+    {
+      "id": "milan-rome",
+      "route": "Milan to Rome",
+      "operator": "Frecciarossa",
+      "confirmationNumber": "Y3MXSN",
+      "cost": "$620.31",
+      "departure": {
+        "station": "Milano Centrale",
+        "city": "Milan",
+        "date": "2026-04-27",
+        "time": "15:00"
       },
       "arrival": {
         "station": "Roma Termini",
         "city": "Rome",
         "date": "2026-04-27",
-        "time": "TBD"
+        "time": "18:15"
       },
-      "status": "TBD"
+      "duration": "3h 15m",
+      "status": "Booked"
     },
     {
-      "id": "rome-sorrento",
-      "route": "Rome to Sorrento via Naples",
+      "id": "rome-naples",
+      "route": "Rome to Naples",
+      "operator": "Trenitalia FR 9405",
+      "confirmationNumber": "AFLZ35",
       "departure": {
         "station": "Roma Termini",
         "city": "Rome",
         "date": "2026-04-29",
-        "time": "TBD"
-      },
-      "intermediate": {
-        "station": "Napoli Centrale",
-        "city": "Naples",
-        "time": "TBD"
+        "time": "11:35"
       },
       "arrival": {
-        "station": "Sorrento",
-        "city": "Sorrento",
+        "station": "Napoli Centrale",
+        "city": "Naples",
         "date": "2026-04-29",
-        "time": "TBD"
+        "time": "12:48"
       },
-      "status": "TBD"
+      "duration": "1h 13m",
+      "seats": "Carriage 1, Seat 3D & 4D (Solo Seats)",
+      "status": "Booked",
+      "note": "Then local train/ferry to Sorrento"
     },
     {
       "id": "sorrento-rome",
@@ -112,7 +156,7 @@
         "date": "2026-05-03",
         "time": "TBD"
       },
-      "status": "TBD"
+      "status": "Not booked"
     }
   ],
   "destinations": [
@@ -125,10 +169,12 @@
       "checkOut": "2026-04-27",
       "nights": 4,
       "accommodation": {
-        "status": "TBD",
-        "name": null,
+        "status": "Researching",
+        "name": "Hôtel des Grands Hommes",
+        "neighborhood": "5th arr Latin Quarter",
         "address": null,
-        "confirmationNumber": null
+        "confirmationNumber": null,
+        "note": "Not yet booked"
       },
       "highlights": [
         "Staying in Latin Quarter",
@@ -352,12 +398,18 @@
       "checkOut": "2026-04-29",
       "nights": 2,
       "accommodation": {
-        "status": "TBD",
-        "name": null,
-        "address": null,
-        "confirmationNumber": null
+        "status": "Booked",
+        "name": "The Fifteen Keys Hotel",
+        "neighborhood": "Monti",
+        "address": "Via Urbana 6-7, Roma, Italy 00184",
+        "confirmationNumber": "149666136148642851​00",
+        "bookedVia": "Booking.com",
+        "bookedDate": "2025-10-28",
+        "cost": "$936.20",
+        "checkIn": "Monday, April 27, 2026",
+        "checkOut": "Wednesday, April 29, 2026"
       },
-      "highlights": [],
+      "highlights": ["Monti neighborhood", "Explore the city"],
       "thingsToDo": [],
       "restaurants": []
     },
@@ -369,12 +421,18 @@
       "checkOut": "2026-05-03",
       "nights": 4,
       "accommodation": {
-        "status": "TBD",
-        "name": null,
-        "address": null,
-        "confirmationNumber": null
+        "status": "Booked",
+        "name": "Accademia 39",
+        "address": "39 Via Accademia, 80067 Sorrento, Italy",
+        "phone": "+39 081 1837 3229",
+        "confirmationNumber": null,
+        "room": "Superior Double Room, 2 adults",
+        "cost": "€1,506.78",
+        "checkIn": "Wednesday, April 29, 2026 (2:00-8:00 PM)",
+        "checkOut": "Sunday, May 3, 2026 (8:00-10:30 AM)",
+        "cancellation": "Non-refundable"
       },
-      "highlights": ["Wedding event location"],
+      "highlights": ["Aubrey's Wedding", "Amalfi Coast", "Limoncello"],
       "thingsToDo": [],
       "restaurants": []
     },
