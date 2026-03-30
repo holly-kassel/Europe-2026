@@ -24,8 +24,9 @@ A comprehensive JSON file containing:
 ### 2. GitHub Actions Workflow
 **File:** `.github/workflows/update-trip-data.yml`
 
-Automatically updates the JSON data file when you modify markdown files:
+Automatically updates the JSON data file when you modify markdown files or GitHub issues:
 - Triggers on changes to `README.md`, `paris-recommendations.md`, and other `.md` files
+- Triggers on issue events (opened, edited, deleted, closed, reopened)
 - Updates the `lastUpdated` timestamp
 - Commits and pushes changes automatically
 - Runs on the `main` branch
@@ -67,7 +68,7 @@ Automatically updates the JSON data file when you modify markdown files:
 
 ### For Trip Planners
 
-1. **Update trip information** in markdown files (README.md, paris-recommendations.md)
+1. **Update trip information** in markdown files (README.md, paris-recommendations.md) or GitHub issues
 2. **GitHub Actions runs automatically** and updates trip-data.json
 3. **Spark app fetches** the latest data on next page load
 4. **Everyone sees the updates** immediately
@@ -154,7 +155,7 @@ button.addEventListener('click', async () => {
 - **CORS:** Enabled (via raw.githubusercontent.com)
 - **Authentication:** None required (public repository)
 - **Updates:** Automatic via GitHub Actions
-- **Latency:** ~1-2 minutes after markdown changes
+- **Latency:** ~1-2 minutes after markdown or issue changes
 - **Cache:** GitHub CDN (fast worldwide access)
 
 ## File Sizes

@@ -24,7 +24,7 @@ Your Spark app can stay synchronized with this repository! All trip data is avai
 
 **📖 Integration Guide:** [API-INTEGRATION.md](API-INTEGRATION.md)
 
-The data file automatically updates when you modify trip information in this repository. Your Spark app can fetch the latest data to display flights, destinations, activities, restaurants, and more!
+The data file automatically updates when you modify trip information in this repository (including markdown files and GitHub issues). Your Spark app can fetch the latest data to display flights, destinations, activities, restaurants, and more!
 
 ---
 
